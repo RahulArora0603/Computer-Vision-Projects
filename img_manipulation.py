@@ -5,10 +5,9 @@ import numpy as np
 
 img =  cv2.imread('IMG_7880[1].jpg', -1)
 #CHANGE COLOR OF IMAGE
-'''for i in range(100):
+for i in range(100):
     for j in range(img.shape[1]):
-        img[i][j] = [random.randint(0,255),random.randint(0,255),random.randint(0,255)]
-   '''     
+        img[i][j] = [random.randint(0,255),random.randint(0,255),random.randint(0,255)]     
 #COPY ONE PART OF IMAGE AND PASTE TO ANOTHER PART
 '''tag = img[50:70 , 60:90]
 img[10:30 , 65:95] = tag'''
