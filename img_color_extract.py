@@ -1,5 +1,5 @@
 from PIL import Image
-Image.open('Apple.jpg')
+image = Image.open('Apple.jpg')
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -13,5 +13,8 @@ from sklearn.cluster import KMeans
 n_colors = 10
 models = KMeans(n_clusters=n_colors, random_state=42).fit(pixels)
 palette = np.uint8(models.cluster_centers_)
+image.show()
 plt.imshow([palette])
 plt.show()
+
+
