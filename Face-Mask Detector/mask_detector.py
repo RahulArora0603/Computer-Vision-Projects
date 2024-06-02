@@ -1,7 +1,3 @@
-# import the necessary packages
-#from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
-#from tensorflow.keras.preprocessing.image import img_to_array
-#from tensorflow.keras.models import load_model
 from tensorflow import keras
 from keras.applications.mobilenet_v2 import preprocess_input
 from keras.preprocessing.image import img_to_array
