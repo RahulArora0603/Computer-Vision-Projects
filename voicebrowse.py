@@ -36,8 +36,8 @@ def take_command():
 
 if __name__ == '__main__':
 
-    input_command = ["hello jarvis","how are you","i am fine thank you","jarvis recite alphabet","bolo sache darbar ki", "sare bolo"]
-    output_command = ["Hello Sir","I am fine. How are you?","A beautiful day, isn't it.","A B C D E F G H I J K L M N O P Q R S T U V W X Y Z","Jai","Jai Mata Di"]
+    input_command = ["hello jarvis","how are you","i am fine thank you"]
+    output_command = ["Hello Sir","I am fine. How are you?","A beautiful day, isn't it."]
     sites = ['youtube','google','amazon','kaggle','hackerrank','bing','udemy','wikipedia']
     
     speak("assistance activated ")

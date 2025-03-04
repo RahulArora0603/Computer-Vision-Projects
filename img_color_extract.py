@@ -13,7 +13,7 @@ from sklearn.cluster import KMeans
 n_colors = 10
 models = KMeans(n_clusters=n_colors, random_state=42).fit(pixels)
 palette = np.uint8(models.cluster_centers_)
-image.show()
+#image.show()
 plt.imshow([palette])
 plt.show()
 
