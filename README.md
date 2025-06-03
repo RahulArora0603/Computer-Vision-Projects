@@ -1,4 +1,4 @@
-<head>
+
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -40,7 +40,6 @@
             font-size: 14px;
         }
     </style>
-</head>
 <body>
 
     <h1>📸 Computer Vision Projects Repository</h1>
